@@ -1,5 +1,8 @@
-const button = document.querySelector('button');
+const logo = document.querySelector('.logo');
 
-button.addEventListener('click', () => {
-  alert('Button clicked!');
+logo.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 });

@@ -1,3 +1,38 @@
+.one {
+  background: linear-gradient(to right, #070615, #071C3C, #072745);
+  background-size: 400% 100%;
+  animation: gradientAnimation 10s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #030030; /* Dark background for the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555; /* Darker thumb color */
+    border-radius: 10px;
+    border: 3px solid #2e2e2e; /* Matches the track background */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Lighter color on hover */
+}
 body{
-    height: 200vh;
+    background-color: #030030;
 }

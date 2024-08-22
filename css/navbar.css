@@ -1,25 +1,105 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: "Spline Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
-nav{
+nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: sticky;
     top: 4px;
+    background: linear-gradient(to right, #070615, #071C3C, #072745);
+    z-index: 100;
+    /* Make the nav width to 80 vw and placing the nav in center */
+    width: 80vw;
+    margin: 0 auto;
+    /* padding: 1vh 0 */
 }
-.list{
+
+.nav-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
     width: 50vw;
     list-style: none;
+    
 }
-.login_button{
-    background-color: #00fddb;
-    color: white;
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.login_button {
+    background-color: #16FFBB;
     border: none;
-    padding: 5px 10px;
+    padding: 2vh 2vw;
     border-radius: 5px;
     cursor: pointer;
+    color: black;
+    font-size: larger;
+    border-radius: 30px;
+}
+
+.login_button:hover {
+    background-color: #00fddb;
+    animation: hoverAnimation 0.3s ease-in-out forwards;
+}
+
+.logo img {
+    width: 10vw;
+    max-width: 10vw;
+    min-height: 10vh;
+}
+
+.logo:hover {
+    animation: hoverAnimation 0.3s ease-in-out forwards;
+}
+
+.logo{
+    /* transform: scale(1.4); */
+    background-color: white;
+}
+
+.nav-item {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.nav-item>a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: larger;
+}
+
+.nav-item>a:hover {
+    border-bottom: #00fddb 5px solid;
+    animation: hoverAnimation 0.3s ease-in-out forwards;
+}
+
+@keyframes hoverAnimation{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.13);
+    }
 }

@@ -1,0 +1,15 @@
+/* This CSS File contains all the Media Queries to make the website responsive */
+
+/* For Tablet */
+@media screen and (max-width: 768px) {
+    body{
+        background-color: red;
+    }
+}
+
+/* For Mobiles */
+@media screen and (max-width: 480px) {
+    body{
+        background-color: blue;
+    }
+}

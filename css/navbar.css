@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 4px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    list-style: none;
+}
+.login_button{
+    background-color: #00fddb;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

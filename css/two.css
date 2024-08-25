@@ -1,5 +1,6 @@
 .two {
-    height: 100vh;
+    height: 90vh;
+    min-height: 576px;
     width: 100vw;
     box-sizing: border-box;
     background: linear-gradient(to bottom right, #10BF8C, #02ceb3, #01d8bb);
@@ -17,7 +18,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
+    margin-top: 10vh;
 }
 
 .lower {
@@ -47,24 +49,24 @@
     font-style: normal;
 }
 
-.lower .item p {
+.lower>.item>p {
     color: black;
     font-size: 1.2em;
-    text-align: center;
+    text-align: left;
     margin-top: 2vh;
     font-family: "Barlow", sans-serif;
     font-weight: 300;
-    font-style: normal; 
+    font-style: normal;
 }
 
-.lower > .item > h3 {
+.lower>.item>h3 {
     font-size: 1.40625em;
     color: black;
-    text-align: center;
+    text-align: left;
     margin-top: 10vh;
 }
 
-.lower > .item {
+.lower>.item {
     margin: 2vh;
     text-align: left;
 }

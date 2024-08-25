@@ -38,8 +38,21 @@
     align-items: center;
 }
 .title-image img{
+    border-radius: 16px;
     height: 100%;
     width: 60%;
     position: relative;
     top: 3vh;
+}
+
+.moreButton{
+    position: relative;
+    background-color: #16FFBB;
+    border: none;
+    padding: 2vh 2vw;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-size: large;
+    top: 10vh;
 }

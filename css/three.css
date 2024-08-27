@@ -21,6 +21,9 @@
     text-align: left;
 }
 .three > .up > p{
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     font-size: 1.2em;
     text-align: left;
 }
@@ -31,4 +34,41 @@
     width: 70%;
     row-gap: 5vh;
     column-gap: 3vw;
+}
+
+.three > .down > .items-3 > .num> h3{
+    font-size: 1.5625em;
+    text-align: left;
+}
+.three > .down > .items-3 > p{
+    font-size: 1.265625em;
+    text-align: left;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.three > .down > .items-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    gap: 4vh;
+    text-align: left;
+}
+
+.num{
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+    justify-content: left;
+}
+
+.num h1{
+    text-align: left;
+    font-size: 1.40625em;
+    border: 3px solid rgb(0, 207, 173);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50px;
 }

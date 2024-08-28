@@ -21,17 +21,18 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #030030; /* Dark background for the track */
+    background: #ffffff00; 
+    /* Dark background for the track */
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #555; /* Darker thumb color */
+    background-color: #55555525; /* Darker thumb color */
     border-radius: 10px;
-    border: 3px solid #2e2e2e; /* Matches the track background */
+    border: 3px solid #2e2e2ec9; /* Matches the track background */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #888; /* Lighter color on hover */
+    background: #888888ab; /* Lighter color on hover */
 }
 body{
     background-color: #030030;
